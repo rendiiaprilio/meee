@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Oprec Sigma</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+    <div class="Sigma-box">
+        <center><img src="sigma.png" width="200" height="200" alt=""/> <h1>Sigma Radio</h1></center>
+        <p>
+            <center>Smart and Funky Station!</center>
+        </p>
+        <form method="POST" action="" target="_blank" enctype="multipart/form-data"></form>
+            <center>
+            <table>
+            <tr>
+                <td class="text">Nama </td>
+                <td>:</td>
+                <td><input type="text" name="nama_anda" required="required" placeholder="isikan nama lengkap anda" maxlenght="30" size="40"/> </td>
+            </tr>
+            <tr>
+                <td>NIM </td>
+                <td>:</td>
+                <td><input type="text" name="nim" required="required" placeholder="Masukkan NIM Anda" pattern="[0-9]{9}" title="NIM adalah tahun diikuti kode jurusan lalu nomor urut mhs"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir </td>
+                <td>:</td>
+                <td><input type="datetime" required="required"> </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin </td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="gender" value="man"/> Laki-Laki
+                    <input type="radio" name="gender" value="woman"/> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Agama </td>
+                <td>:</td>
+                <td>
+                    <select name="Agama">
+                        <option value="islam">islam</option>
+                        <option value="Kristen">kristen</option>
+                        <option value="buddha">buddha</option>
+                        <option value="hindu">hindu</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Program Studi</td>
+                <td>:</td>
+                <td>
+                    <select name="Program Studi">
+                        <option value="S1 Teknik Informatika">S1 Teknik Informatika </option>
+                        <option value="S1 Teknik Mesin">S1 Teknik Mesin </option>
+                        <option value="S1 Teknik Elektro">S1 Teknik Elektro </option>
+                        <option value="S1 Teknik Sipil">S1 Teknik Sipil </option>
+                        <option value="D3 Teknologi Listrik">D3 Teknologi Listrik </option>
+                        <option value="D3 Teknologi Mesin">D3 Teknologi Mesin </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Pas Foto</td>
+                <td>:</td>
+                <td><input type="file" name="browse" value="" width="200"/></td>
+            </tr>
+            <tr>
+                <td>No WA </td>
+                <td>:</td>
+                <td><input type="NoWA" pattern="[0-9]{9}" required="required" placeholder="contoh:0812xxxx"></td>
+            </tr>
+            <tr>
+                <td>Alasan</td>
+                <td>:</td>
+                <td><textarea name="Comment" columns="50" rows="8"></textarea></td>
+            </tr>
+            <tr>
+                <td>Divisi yang dipilih</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="agama" value="divisi"> Music Director<br>
+                    <input type="checkbox" name="agama" value="divisi"> Creative Director<br>
+                    <input type="checkbox" name="agama" value="divisi"> Program Director<br>
+                    <input type="checkbox" name="agama" value="divisi"> Marketing and Communication<br>    
+            </tr>
+            <tr>
+                <td>Alasan Memilih Divisi I dan II</td>
+                <td>:</td>
+                <td><textarea name="Comment" columns="50" rows="8"></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" name="Kirim">Submit</button>
+                    <button type="reset" name="reset">Batal</button>
+                </td>
+            </tr>
+            </table>
+        </center>
+    </div>
+</body>
+</html>

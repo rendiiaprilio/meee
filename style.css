@@ -1,0 +1,100 @@
+body{
+    background: url(bg.png) no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.Oprec-box{
+    width: 320px;
+    height: 500px;
+    background: rgba(10, 10, 10, 0.7);
+    color: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px;
+    transform: translate(-50%, -50%);
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    padding: center;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.Oprec-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Oprec-box input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    padding: 0.5px;
+}
+.Oprec-box input[type="submit"]{
+    width: 100%;
+    height: 30px;
+    padding: 5px 0;
+    border: none;
+    outline: none;
+    background-color: #d696f0;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.Oprec-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: #e33d56;
+    color: #fff;
+}
+#forgot-pass{
+    text-decoration: none;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-bottom: 20pt;
+}
+#forgot-pass:hover{
+    color: #d696f0;
+}
+p{
+    color: rgb(194, 18, 185);
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-top: 0.5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+}
+a{
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+a:hover{
+    color: #d696f0;
+}
+.Sigma-box{
+    background: rgba(10, 10, 10, 0.7);
+    color: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: content-box;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+}
